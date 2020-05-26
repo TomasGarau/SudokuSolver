@@ -16,9 +16,9 @@ public class Main {
                 System.out.println("Test " + i + " passed!");
             }
             else {
-                Pair p = board.check();
+                int[] pair = board.check();
                 System.out.println("Test " + i + " failed.");
-                System.out.println("Clash at: " +  p.toString());
+                System.out.println("Clash at: " +  pair.toString());
             }
         }
     }
